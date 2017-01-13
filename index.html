@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<h1>Welcome to the Dearn Translator</h1>
+<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body style= "background-color: #48C7CB">
+
+<h1>Enter the word you want to translate in all lowercase:</h1>
+<h2> Be sure to click the submit button instead of pressing enter.</h2>
+<form id="dearn" action="form_action.asp">
+Dearn Word: <input type="text" id="word" name="dword"><br>
+<input type="button" onclick="myFunction()" value="Submit">
+</form>
+<script>
+dearn_dictionary={
+"pila" : "pizza",
+"nally" : "nasty",
+"short for nasty" : "nas",
+"pin" : "Noun for lie or disinformation",
+"simple pin" : "A simple or lackluster lie",
+"complex pin" : "A methodical and well thought out lie.",
+"allern" : "buttocks",
+"dillist" : "Male genetalia",
+"dill" : "short for dillest; male genetalia",
+"ice" : "Noun for an icebreaking phrase or term",
+"icy" : "Adjective for ice",
+"pill" : "urine, or piss",
+"pilled" : "pissed off",
+"nutneck" : "a stupid or silly person",
+"dillboy" : "a generic insult",
+"nal" : "Short for nally",
+"e" : "A symbol of disagreement",
+"breel" : "superfluos or excessive love for someone",
+"hard" : "Adjective for something unecessarily tough or obnoxious",
+"parly" : "party",
+"dondo" : "Will Erickson's condo",
+"mik" : "McCann",
+"nullard" : "nuts",
+"pullern" : "pussy",
+"dip" : "leave",
+"dipplers" : "The act of exting or leaving",
+"l" : "a general symbol for loss",
+"w" : "a general symbol for win or victory",
+"alpine lee" : "Alpine Skii 3: the video game",
+"dabshack" : "the offical dearn group message",
+"simple" : "short for simple pin",
+"dully" : "dusty",
+"sweelee" : "sweat tea",
+"chron" : "noun for a ridiculous situation",
+"skleep" : "Something or someone that is underrated. Also a verb for sleep",
+"skleeper" : "the same as skleep",
+"coaler" : "costner",
+"build"  : "Lucas Ray",
+"who is this kid" : "Drew Chambers Go-to",
+"dabshack" : "The groupchat involving Cade McCann, Jack Rosa, Will Erickson, Lucas Ray, Luke Clausen, Ryan Williams, Jacob Larson, Jared Brady, Sonny Loiciano, Jared Brady and Tucker Talbott",
+"yung god" : "russ",
+"fake gid" : "artificial excitement",
+"fake gid hype" : "artificial excitement",
+"chronicle" : "noun for a ridiculous situation",
+"welly Don't Swell" : "wesley Do Not swell",
+"welly" : "wesley",
+"guh" : "marijuana",
+"hype" : "alcohol",
+"going to hypeshack" : "the consumption of alcohol",
+"dearn" : "the language of the dabshack",
+"dab" : "The groupchat involving Cade McCann, Jack Rosa, Will Erickson, Lucas Ray, Luke Clausen, Ryan Williams, Jacob Larson, Jared Brady, Sonny Loiciano, Jared Brady and Tucker Talbott",
+"ron mis" : "The act of ronny mishearing something",
+"going to fake" : "the act of lying",
+"fakie hut" : "noun, place where pinsters reside",
+"fakiehut" : "noun, place where pinsters reside",
+"pinster" : "liar",
+"thief" : "to steal",
+"thief wallern" : "steal water",
+"wallern" : "water",
+"thirly" : "thirsty",
+"the great bumpagio" : "he's returning tomorrow",
+"bumpagio" : "he's returning tomorrow",
+"16 more days" : "until pizza hut",
+"16" : "more days until pizza hut",
+"clah" : "class",
+"paylay always aylay" : "parents are always egging",
+"egging" : "nagging",
+
+
+};
+
+  function myFunction(){
+    var textval = document.getElementById("word").value;
+    alert(dearn_dictionary[textval]);
+  }
+    
+</script>
+<p>Most Common Words:</p>
+<ul>
+<li>breel</li>
+<li>hard</li>
+<li>nal</li>
+<li>ice</li>
+<li>pin</li>
+</ul>
+</body>
+</html>
