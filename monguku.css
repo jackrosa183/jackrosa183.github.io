@@ -18,4 +18,9 @@ a {
 	font-size: 48px
 	
 }
+p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 36px;
+	text-shadow: 2px 2px #404040;
+}
 
