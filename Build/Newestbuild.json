@@ -1,0 +1,13 @@
+{
+"companyName": "DefaultCompany",
+"productName": "whg",
+"dataUrl": "Newestbuild.data.unityweb",
+"asmCodeUrl": "Newestbuild.asm.code.unityweb",
+"asmMemoryUrl": "Newestbuild.asm.memory.unityweb",
+"asmFrameworkUrl": "Newestbuild.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
